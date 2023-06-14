@@ -43,8 +43,9 @@
 
 </head>
 <body>
+	<div itemscope itemtype="http://schema.orgrd/Photograph" ></div>
 	<div class="top-header">
-		<h1 class="name">Nina Carducci</h1>
+		<h1 class="name" itemprop="editor">Nina Carducci</h1>
 		<div class="nav">   
 			<ul>
 				<li><a href="#about">À propos</a></li>
@@ -58,7 +59,7 @@
 	<div id="header">
 	
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-			<div class="carousel-indicators">
+			<div class="carousel-indicators" itemprop="exampleOfWork">
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -104,7 +105,7 @@
 	</div>
 	<div id="gallery">
 		<h3 class="title">Portfolio</h3>
-		<div class="container py-3">
+		<div class="container py-3" itemprop="exampleOfWork">
 			<div class="gallery" style="display: none">
 				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnx-fxzb6cw-unsplash-0-33x.webp"  alt="L'ambiance éléctrique d'un concert"/>
 				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-wmd64tmfc4k-unsplash-0-33x.webp" alt="Un homme en costard cravate"/>
@@ -134,7 +135,7 @@
 					<h3>Shooting photo</h3>
 					<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 				</div>
-				<div class="service__price">
+				<div class="service__price" itemprop="usageInfo" >
 					<h4>350€/demi journée</h4>
 					<span>Matériel, déplacement inclus</span>
 				</div>
