@@ -277,10 +277,18 @@ form textarea {
 	font-size: 1.2em;
 	margin-bottom: 20px;
 }
+
 input[type="submit"] {
 	background-color: #BEB45A;
 	/* background-color: #b8a820; */
 	padding: .5em 1em
+}
+
+.localisation {
+	border: 1px solid black;
+	padding: 5px;
+	padding-left: 10%;
+	width: 100%;
 }
 
 @media all and (max-width: 1180px) {
