@@ -287,7 +287,7 @@ input[type="submit"] {
 .localisation {
 	border: 1px solid black;
 	padding: 5px;
-	padding-left: 10%;
+	text-align: center;
 	width: 100%;
 }
 
